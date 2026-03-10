@@ -9,7 +9,7 @@ public class BankATM implements ATMOperations {
             balance -= amount;
             System.out.println("Your withdrawal of GH$ " + amount + " was successful.");
         }else{
-            System.out.println("You have insuficient balance in your account.");
+            System.out.println("You have insufficient balance in your account.");
         }
     }
 
